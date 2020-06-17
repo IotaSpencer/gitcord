@@ -4,11 +4,11 @@ $:.unshift File.expand_path('../lib', __FILE__)
 require 'gitcord/version'
 
 Gem::Specification.new do |s|
-  s.name          = 'gitchan-bot'
+  s.name          = 'gitcord'
   s.version       = GitCord::VERSION
   s.authors       = ['IotaSpencer']
   s.email         = ['me@iotaspencer.me']
-  s.homepage      = 'https://github.com/IotaSpencer/gitchan-bot'
+  s.homepage      = 'https://github.com/IotaSpencer/gitcord'
   s.licenses      = ['MIT']
   s.summary       = '[summary]'
   s.description   = '[description]'

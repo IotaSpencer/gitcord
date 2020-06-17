@@ -39,7 +39,7 @@ module Bot
           event.channel.prune c, true
           puts "Deleted Messages"
         else
-          event.respond "No"
+          raise GitCord::Execeptions::NotOwnerError.new(event)
         end
       end
       command(:eval) do |event, *code|
